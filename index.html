@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Caldos da Lele</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700;9..144,900&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <div class="brand">Caldos da <span>Lele</span></div>
+    <a href="#pedir" class="nav-cta">Pedir agora</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-eyebrow">Panela no fogo desde as 18h</div>
+  <h1>Um caldo bom<br>não tem <em>pressa</em>.</h1>
+  <p class="sub">Cinco receitas, cozidas devagar até o osso soltar do cabo da colher. Um preço único pra todas.</p>
+  <div class="hero-actions">
+    <a href="#cardapio" class="btn-primary">Ver o cardápio</a>
+    <a href="#pedir" class="btn-ghost">Pedir pelo WhatsApp</a>
+  </div>
+
+  <div class="bowl-scene">
+    <svg viewBox="0 0 280 220" xmlns="http://www.w3.org/2000/svg">
+      <g class="steam">
+        <path d="M110 100 C100 80, 120 70, 112 50 C104 30, 122 22, 116 8"/>
+        <path d="M140 100 C132 78, 150 68, 143 46 C136 26, 152 18, 148 4"/>
+        <path d="M170 100 C162 80, 180 70, 173 50 C166 30, 182 22, 178 8"/>
+        <path d="M125 100 C118 84, 132 74, 127 58 C122 42, 134 34, 130 20"/>
+      </g>
+      <ellipse cx="140" cy="150" rx="105" ry="22" fill="#8C3B23" opacity="0.35"/>
+      <path d="M40 108 C40 108 45 168 140 168 C235 168 240 108 240 108 Z" fill="#241A13" stroke="#C9832E" stroke-width="2"/>
+      <ellipse cx="140" cy="108" rx="100" ry="20" fill="#2C2015" stroke="#C9832E" stroke-width="2"/>
+      <ellipse cx="140" cy="106" rx="82" ry="13" fill="#8C3B23"/>
+      <ellipse cx="110" cy="103" rx="10" ry="4" fill="#E3A24C" opacity="0.5"/>
+      <ellipse cx="160" cy="109" rx="7" ry="3" fill="#E3A24C" opacity="0.4"/>
+    </svg>
+  </div>
+</section>
+
+<div class="stamp-band">
+  <div class="stamp-text">Todos os caldos, <b>R$ 24</b> — sem exceção, sem pegadinha.</div>
+</div>
+
+<section class="menu" id="cardapio">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">O cardápio</span>
+      <h2>Cinco caldos.<br>Um preço.</h2>
+    </div>
+
+    <div class="menu-grid">
+
+      <div class="caldo-card featured">
+        <div class="seal">R$24<small>UND.</small></div>
+        <svg class="icon" viewBox="0 0 48 48" fill="none"><path d="M8 20h32c0 12-7 20-16 20S8 32 8 20Z" stroke="#F3E9D8" stroke-width="2"/><path d="M18 12c0-3 2-3 2-6M28 12c0-3 2-3 2-6" stroke="#F3E9D8" stroke-width="2" stroke-linecap="round"/></svg>
+        <h3>Vaca Atolada</h3>
+        <p>Costela bovina cozida até desmanchar, mandioca macia e um caldo encorpado que gruda na colher. O queridinho da casa.</p>
+      </div>
+
+      <div class="caldo-card">
+        <div class="seal">R$24<small>UND.</small></div>
+        <svg class="icon" viewBox="0 0 48 48" fill="none"><path d="M8 20h32c0 12-7 20-16 20S8 32 8 20Z" stroke="#E3A24C" stroke-width="2"/><path d="M18 12c0-3 2-3 2-6M28 12c0-3 2-3 2-6" stroke="#E3A24C" stroke-width="2" stroke-linecap="round"/></svg>
+        <h3>Caldo de Mocotó</h3>
+        <p>Pé de boi cozido por horas até virar colágeno puro. Encorpado, gelatinoso do jeito certo — pros dias de frio de verdade.</p>
+      </div>
+
+      <div class="caldo-card">
+        <div class="seal">R$24<small>UND.</small></div>
+        <svg class="icon" viewBox="0 0 48 48" fill="none"><path d="M8 20h32c0 12-7 20-16 20S8 32 8 20Z" stroke="#E3A24C" stroke-width="2"/><path d="M18 12c0-3 2-3 2-6M28 12c0-3 2-3 2-6" stroke="#E3A24C" stroke-width="2" stroke-linecap="round"/></svg>
+        <h3>Caldo de Chambari</h3>
+        <p>Músculo bovino em cozimento lento, com legumes que se desmancham no garfo. Simples, direto e reconfortante.</p>
+      </div>
+
+      <div class="caldo-card">
+        <div class="seal">R$24<small>UND.</small></div>
+        <svg class="icon" viewBox="0 0 48 48" fill="none"><path d="M8 20h32c0 12-7 20-16 20S8 32 8 20Z" stroke="#E3A24C" stroke-width="2"/><path d="M18 12c0-3 2-3 2-6M28 12c0-3 2-3 2-6" stroke="#E3A24C" stroke-width="2" stroke-linecap="round"/></svg>
+        <h3>Caldo de Frango</h3>
+        <p>Frango desfiado à mão, mandioca e um tempero de família. O clássico que nunca decepciona.</p>
+      </div>
+
+      <div class="caldo-card">
+        <div class="seal">R$24<small>UND.</small></div>
+        <svg class="icon" viewBox="0 0 48 48" fill="none"><path d="M8 20h32c0 12-7 20-16 20S8 32 8 20Z" stroke="#E3A24C" stroke-width="2"/><path d="M18 12c0-3 2-3 2-6M28 12c0-3 2-3 2-6" stroke="#E3A24C" stroke-width="2" stroke-linecap="round"/></svg>
+        <h3>Caldo de Feijão</h3>
+        <p>Feijão bem temperado com toque de bacon e costela, batido até virar creme grosso. Simples e matador.</p>
+      </div>
+      <div class="caldo-card">
+        <div class="seal">R$24<small>UND.</small></div>
+        <svg class="icon" viewBox="0 0 48 48" fill="none"><path d="M8 20h32c0 12-7 20-16 20S8 32 8 20Z" stroke="#E3A24C" stroke-width="2"/><path d="M18 12c0-3 2-3 2-6M28 12c0-3 2-3 2-6" stroke="#E3A24C" stroke-width="2" stroke-linecap="round"/></svg>
+        <h3>Abóbora com Carne</h3>
+        <p>Abóbora cozida até virar purê, com carne de sol desfiada e um toque de pimenta. Doce, salgada e picante na medida.</p>
+    </div>
+  </div>
+</section>
+
+<section class="how">
+  <div class="wrap">
+    <div class="section-head" style="margin-bottom:0;">
+      <span class="eyebrow">Como funciona</span>
+      <h2>Do fogo até a sua porta</h2>
+    </div>
+    <div class="how-grid">
+      <div class="how-item">
+        <div class="mark">1</div>
+        <h4>Escolha o caldo</h4>
+        <p>Cinco opções, um preço único. Escolha um ou peça o combo pra dividir com alguém.</p>
+      </div>
+      <div class="how-item">
+        <div class="mark">2</div>
+        <h4>Chame no WhatsApp</h4>
+        <p>Manda o pedido, o endereço e a forma de pagamento. Sem aplicativo, sem complicação.</p>
+      </div>
+      <div class="how-item">
+        <div class="mark">3</div>
+        <h4>Chega fumegando</h4>
+        <p>Embalado quente, pronto pra tomar de colher direto da marmita.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="wrap" id="pedir">
+  <div class="order-cta">
+    <h2>Bora esquentar o dia?</h2>
+    <p>Chama a gente no WhatsApp e escolhe seu caldo. Entrega em panela térmica, sempre quentinho.</p>
+    <a href="https://wa.me/5500000000000" class="btn-primary" target="_blank" rel="noopener">Chamar no WhatsApp</a>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h5>Caldos da Lele</h5>
+        <p>Rua das Panelas, 123 — Centro<br>Barra do Garças, MT</p>
+      </div>
+      <div>
+        <h5>Horário</h5>
+        <li>Terça a domingo</li>
+        <li>18h às 23h</li>
+        <li>Segunda: fechado</li>
+      </div>
+      <div>
+        <h5>Contato</h5>
+        <li>(66) 0000-0000</li>
+        <li>@caldosdofogobaixo</li>
+      </div>
+    </div>
+    <div class="footer-bottom">Caldos do Fogo Baixo — cada caldo, R$ 24.</div>
+  </div>
+</footer>
+
+</body>
+</html>
