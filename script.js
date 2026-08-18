@@ -1,5 +1,5 @@
 // ---- Configuração ----
-const WHATSAPP_PHONE = "5500000000000"; // troque pelo número real, com DDI+DDD, só números
+const WHATSAPP_PHONE = "5566992122039"; // troque pelo número real, com DDI+DDD, só números
 
 // ---- Estado do carrinho ----
 const cart = {}; // { "Vaca Atolada": { price: 24, qty: 2 }, ... }
@@ -133,10 +133,10 @@ function confirmOrder(){
     const item = cart[itemName];
     msg += `• ${item.qty}x ${itemName} — ${fmtBRL(item.qty * item.price)}\n`;
   });
+  msg += `\nObservação: ${note ? note : "-"}`;
   msg += `\nTotal: ${fmtBRL(cartTotal())}`;
   msg += `\n\nNome: ${name}`;
   msg += `\nForma de pagamento: ${payment}`;
-  msg += `\nObservação: ${note ? note : "-"}`;
   msg += `\n\n📍 Vou enviar minha localização em seguida, aqui pelo WhatsApp.`;
 
   const url = `https://wa.me/${WHATSAPP_PHONE}?text=${encodeURIComponent(msg)}`;
