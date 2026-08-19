@@ -26,6 +26,11 @@ function cartCount(){
   return Object.values(cart).reduce((sum, i) => sum + i.qty, 0);
 }
 
+function setLegend(qty){
+  let legend = window.document.querySelector('#legend');
+  legend.innerHTML = qty <= 1 ? 'item' : 'itens';
+  
+}
 function cartTotal(){
   return Object.values(cart).reduce((sum, i) => sum + i.qty * i.price, 0);
 }
